@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+nav{
+    border: 2px solid red;
+    padding-top: 1rem;
+    background-color: #ffe975;
+    display: flex;
+    position: sticky;
+}
+.div1{
+    width:17% ;
+}
+nav h1{
+margin-left: 2rem;
+font-weight: 800;
+color: darkblue;
+text-align: start;
+cursor: pointer;
+}
+nav p{
+    margin-left: 2rem;
+    font-weight: 600;
+    text-align: start;
+    cursor: pointer;
+    }
+
+    
+    .div2{
+width: 12%;
+    }
+    .div3{
+      width: 49%;  
+    }
+    .div3 input{
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 5px;
+        height: 2.2rem;
+    }
+
+    .div4{
+display: flex;
+width: 15%;
+margin-left: 2%;
+margin-top: 1rem;
+font-size: 1.2rem;
+font-weight: 400;
+
+
+    }
+
+    .div4First{
+        width: 50%;
+        cursor: pointer;
+        
+    }
+
+    .div4Second{
+        width: 50%;
+        text-align: end;
+        cursor: pointer;
+        
+    }
+    .main{
+        width: 75%;
+        height: 42rem;
+        border: 2px solid  blue;
+        display: flex;
+    }
+    main h1{
+        font-size: 16px;
+    }
+
+    section{
+        width: 25%;
+        height: 42rem;
+        border: 2px solid green;
+        justify-content: end;
+    }
